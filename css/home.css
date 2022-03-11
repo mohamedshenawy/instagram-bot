@@ -1,0 +1,42 @@
+.header div a i {
+  font-size: 30px;
+}
+.header div a {
+  text-decoration: none;
+  color: black;
+}
+.header div a img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.search-bar {
+  border: 1px solid gray;
+  border-radius: 9px;
+  padding: 2px 7px;
+  background-color: #ccc;
+}
+.search-bar input {
+  border: 0px solid black;
+  background-color: #ccc;
+}
+.search-bar i {
+  color: rgb(109, 107, 107);
+  transition: 1s all;
+}
+.search-bar input:focus {
+  outline: none;
+}
+#my-x-search-icon {
+  display: none;
+}
+
+.profile-post-photo {
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-name-post,
+.profile-name-post:hover {
+  text-decoration: none;
+  color: black;
+}
