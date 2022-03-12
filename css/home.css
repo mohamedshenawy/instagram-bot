@@ -1,9 +1,27 @@
-.header div a i {
-  font-size: 30px;
+#header {
+  background-color: white;
+  border-bottom: 1px solid rgb(236, 235, 235);
 }
-.header div a {
+.header div a i {
+  font-size: 25px;
+}
+.anochor-tag {
   text-decoration: none;
   color: black;
+  transition: all 0.5s;
+}
+.anochor-tag:hover {
+  color: gray;
+}
+.anochor-tag p {
+  font-weight: bold;
+}
+.post-comments {
+  color: gray;
+}
+.time-post {
+  font-size: 11px;
+  color: gray;
 }
 .header div a img {
   width: 30px;
@@ -39,4 +57,30 @@
 .profile-name-post:hover {
   text-decoration: none;
   color: black;
+}
+.posts-div {
+  border: 1px solid rgba(195, 193, 193, 0.486);
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px rgba(224, 219, 219, 0.513);
+}
+
+.profile-rs-photo {
+  border-radius: 50%;
+  width: 50px;
+}
+#photos-div {
+  position: relative;
+}
+.heart-by-bdlc {
+  visibility: hidden;
+  transition: all 1s;
+}
+.heart-by-bdlc i {
+  color: white;
+  position: absolute;
+  font-size: 100px;
+  top: 30%;
+  left: 42%;
+  opacity: 70%;
+  z-index: 999999;
 }
